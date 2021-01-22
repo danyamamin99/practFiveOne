@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 20px auto;
+}
+.one {
+  width: 500px;
+  height: 400px;
+  padding: 10px;
+}
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+form {
+  margin-top: 20px;
+}
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="radio"] {
+  display: inline;
+}
+label {
+  display: block;
+}
+.slider {
+  width: 600px;
+  height: 200px;
+}
+img {
+  width: 300px;
+  height: 200px;
+}
